@@ -1,0 +1,19 @@
+
+$mainColor: #000;
+$layoutWidth: 960px;
+$navWidth: $layoutWidth/3;
+footer{
+	width: ($layoutWidth - 20px);
+}
+
+// lighten(#000, 20%)
+// darken(#eee, 30%)
+// grayscale(#2a79af)
+
+@mixin name {
+	property: value;
+}
+@mixin dropshadow($argument) {
+	property: value;
+	property: 50%;
+}
